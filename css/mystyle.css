@@ -1,0 +1,160 @@
+body{
+	line-height:25px;
+	font-size:16px;
+}
+.menuSite{
+	background-color:#000;
+	background-color:rgba(0,0,0,0.3);
+	box-shadow:0px 0px 0px transparent;-o-box-shadow:0px 0px 0px transparent;
+	-moz-box-shadow:0px 0px 0px transparent;
+	-webkit-box-shadow:0px 0px 0px transparent;
+}
+.home{
+	width:100%;
+	background-image:url('../img/pexels-photo-281458.jpeg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+
+}
+.logo{
+	margin-left:1em;
+	font-family: 'Questrial', sans-serif;
+}
+.side-nav li{
+	padding:0;
+}
+.tituloPg1{
+	color:#ffffff;
+	text-align:center;
+	margin-top:3rem;
+	padding:0 15px;
+	font-size:4em;
+}
+/* ABOUT*/
+
+.about{
+	height:100%;
+	background-color: #006882;
+}
+
+.about h4{
+	font-family: 'Questrial', sans-serif;
+	margin:0px;
+	padding-top:75px;
+	color:#fff;
+	text-align:center;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
+
+.perfil{
+	height:480px;
+	margin:0 auto;
+}
+.perfil p{
+	font-family: 'Architects Daughter', cursive;
+	color:#fff;
+	padding: 30px;
+}
+.redesSociais{
+	color:#fff;
+}
+
+/*PARALLAX*/
+
+.parallax-container{
+	height: 450px;
+}
+
+/* SERVICES */
+
+.services{  
+	height:100%;
+	background-color: #006882;
+}
+.cardHabil{
+	width:100%;
+	height: 100%;
+}
+.services h4{
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	padding: 25px;
+	color: #212121;
+	letter-spacing: 10px;
+
+}
+.cardHabil h5,p{
+	color:#ffffff;
+	text-align: center;
+}
+
+.services h5{
+	color: #212121;
+}
+.img-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* PORTFOLIO */
+.portfolio{
+	background-color: #212121;
+	height: 100%;
+}
+.cardHabil,.cardPort{
+	margin-top:4em;
+}
+
+.portfolio h4{
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	padding: 45px;
+	color: #fff;
+	letter-spacing: 10px;
+}
+
+
+/* CONTACT */
+
+.contact{
+	height: 100%;
+	background-image: url("../img/DarkStainlessSteel.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding: 25px;
+}
+div.input-field input[type=text]:focus {
+	border-bottom: 1px solid #277082;
+	box-shadow: 0 1px 0 0 #000;
+}
+div.input-field input[type=email]:focus{
+	border-bottom: 1px solid #277082;
+	box-shadow: 0 1px 0 0 #000;
+}
+#textarea1:focus{
+	border-bottom: 1px solid #277082;
+	box-shadow: 0 1px 0 0 #000;
+}
+
+.contact h4{
+	text-align: center;
+	color: #fff;
+	font-family: 'Questrial', sans-serif;
+	font-size: 50px;
+}
+
+/* FOOTER */
+
+footer.page-footer{
+	margin-top: 0px;
+	padding-top: 10px;
+	background-color: #212121;
+	font-family: 'Questrial', sans-serif;
+}
+
